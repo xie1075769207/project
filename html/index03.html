@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- 这句代码一定要书写 -->
+       <meta name="referrer" content="no-referrer">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        getData();
+         // 渲染数据
+    function getData() {
+        
+        // 创建一个时间对象
+        let date = new Date();
+        let xhr = new XMLHttpRequest();
+        let num = 1;
+        // 这里涉及到一个服务器代理的问题,这个/dt这样是因为我们做了服务器代理,在E:\phpstudy\phpstudy_pro\Extensions\Nginx1.15.11\conf\vhosts
+        // 这个地址里面做了服务器代理,?后面的就是参数,最后一串数字就是我们的时间戳,这个是固定的数字
+        // 所以这个时间戳是固定的,我们不能写固定的,我们要写一个动态的。
+        // 这个start是开始的索引
+        xhr.open('get',`/sc?tab=umodule&mod=youhuiquan_list`,true);
+        xhr.send();
+        xhr.onload = function() {
+            // 得到的是JSON数据,这个时候我们转换为js对象
+            console.log(xhr.responseText);
+            // let res = JSON.parse(xhr.responseText);
+            // console.log(res);
+        }
+        
+    }
+    </script>
+</body>
+</html>

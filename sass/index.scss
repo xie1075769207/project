@@ -1,0 +1,1034 @@
+body {
+    width: 100%;
+    height: 100%;      
+    background: url(../images/body.png) repeat; 
+    background-size: 100%;
+   
+        /* navTop 部分 start */
+        .navTop {
+            width: 100%;
+            height: 30px;
+            background-color: #fff;
+            .top {
+                box-sizing: border-box;
+                // padding-top: 5px;
+                width: 1175px;
+                height: 30px;
+                // background-color: pink;
+                margin: 0 auto;
+                /* navTop_left  部分start */
+                .navTop_left {
+                    float: left;
+                    width: 330px;
+                    height: 100%;
+                    // background-color: red;
+                    position: relative;
+                    #userLogin {
+                        font-size: 12px;
+                        color: #2b2c2d;
+                        line-height: 30px;
+                        margin-left: 10px;
+                        margin-right: 12px;                    
+                    }
+                    #mfRegister {
+                        font-size: 12px;
+                        color: #2b2c2d;
+                        line-height: 30px;
+                        margin-right: 16px;
+                    }
+                    #qq {
+                        position: absolute;
+                        top: 5px;
+                        left: 135px;
+                    }
+                    #wx {
+                        width: 20px;
+                        height: 20px;
+                        position: absolute;
+                        top: 5px;
+                        left: 200px;
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                    #wb {
+                        position: absolute;
+                        top: 5px;
+                        right: 0px;
+                    }
+                }
+                /* navTop_left 部分 end */
+    
+                /* navTop_right 部分 start */
+                .navTop_right {
+                    float: right;
+                    width: 296px;
+                    height: 100%;
+                    // background-color: red;
+                    li {
+                        float: left;
+                        font-size: 12px;
+                        .setToTheHomepage {
+                            font-size: 12px;
+                            color: #757575;
+                            line-height: 30px;
+                            margin-left:10px;
+                            margin-right: 10px;
+                        }
+                        .joinTheCollection {
+                            font-size: 12px;
+                            color: #757575;
+                            line-height: 30px;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }
+                        .toContactMe {
+                            font-size: 12px;
+                            color: #8fa3c4;
+                            line-height: 30px;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+                /* navTop_right 部分 end */
+            }
+        }        
+        /* navTop 部分 end */
+
+
+        /* headNav 部分  start */
+        .headNav {
+            width: 100%;
+            height: 96px;
+            background-color: #fff;
+            .head {
+                width: 1175px;
+                height: 96px;
+                // background-color: blue;
+                margin: 0 auto;
+                position: relative;
+                .headLogo {
+                    float: left;
+                    width: 200px;
+                    height: 96px;
+                    h1 {
+                        a {
+                            img {
+                                width: 200px;
+                                height: 96px;
+                            }
+                        }
+                    }
+                }
+                .headSearch {
+                    position: absolute;
+                    top: 40px;
+                    left: 530px;
+                    .headSearchText {
+                        float: left;
+                        box-sizing: border-box;
+                        width: 244px;
+                        height: 38px;
+                        background-color: #ffffff;
+                        border: 2px solid #f00582;
+                        outline: none;
+                        font-size: 12px;
+                        color: #6e6e6e;
+                        // margin-left: 5px;
+                        padding-left: 5px;
+                    }
+                    .headSearchSubmit {
+                        float: left;
+                        width: 90px;
+                        height: 38px;
+                        background-color: #f00582;
+                        outline: none;
+                        border: none;
+                        color: #fff;
+                        font-size: 12px;
+                    }
+                }
+                .headImgs {     
+                    box-sizing: border-box;
+                    padding-top: 20px;              
+                    width: 310px;
+                    height: 96px;
+                    float: right;
+                    // background-color: red;
+                    .headImgsOne{                        
+                        float: left;
+                        width: 56px;
+                        height: 65px;
+                        margin-left: 54px;
+                        // background: url(../images/baozhang.png) no-repeat 0px 1px;
+                        background: url(../images/baozhang.png) no-repeat 0px 0px;
+                    }
+                    .headImgsTwo {
+                        float: left;
+                        width: 56px;
+                        height: 65px;
+                        margin-left: 36px;
+                        // background: url(../images/baozhang.png) no-repeat 0px 1px;
+                        background: url(../images/baozhang.png) no-repeat 0px -78px;
+                    }
+                    .headImgsThree {
+                        float: left;
+                        width: 56px;
+                        height: 65px;
+                        margin-left: 36px;
+                        // background: url(../images/baozhang.png) no-repeat 0px 1px;
+                        background: url(../images/baozhang.png) no-repeat 0px -154px;
+                    }
+                }
+
+        }
+
+         }
+
+        /* headNav 部分 end */
+
+        /* banner 部分 start */
+        .banner {
+             width: 100%;
+             height: 38px;
+             background-color: #f00582;
+            .bannerContent {
+                width: 1175px;
+                height: 38px;
+                background-color: #f00582;
+                margin: 0 auto;
+                .homePage {
+                    display: inline-block;
+                    width: 178px;
+                    height: 38px;
+                    line-height: 38px;
+                    background-color: #bd166f;
+                    text-align: center;
+                    i {
+                        font-size: 18px;
+                        color: #fff;
+                        margin-right: 20px;
+                    }
+                    span {
+                        font-size: 16px;
+                        color: #fff;
+                    }
+                }
+                .bannerContent_a {
+                    display: inline-block;
+                    height: 100%;
+                    // margin-left: 80px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    line-height: 38px;
+                    font-size: 16px;
+                    color: #ffffff;
+                    &:hover {
+                        height: 37px;
+                        background-color: #bd166f;
+                    }
+                }
+            }
+        }
+        /* banner 部分  end */
+
+
+        /* dtk_mian 部分 start */
+        .dtk_mian {
+            width: 1175px;            
+            // height: 6000px;            
+            // background-color: skyblue;
+            margin: 0 auto;
+            // 178 294
+            .banner_con {
+                width: 100%;
+                height: 296px;
+                margin-bottom: 15px;
+                // background-color: orange;
+                .banner_con_left {                                      
+                    width: 178px;
+                    height: 296px;
+                    // background-color: red;
+                    float: left;
+                    ul {
+                        width: 100%;
+                        height: 100%;                        
+                        background-color: #fff;
+                        li {
+                            width: 148px;
+                            height: 37px;
+                            padding-left: 30px;
+                            line-height: 37px;
+                            background-color: #fbeaf4;
+                            i {
+                                font-size: 16px;
+                                color: #ff67b3;
+                                margin-right: 15px;
+                            }
+                            a {
+                                font-size: 16px;
+                                color: #5e5a5f;
+                            }
+                            &:hover  {
+                                background-color: #efdfe4;
+                            }
+                        }
+                    }
+                }
+                .swiper-container {
+                    width: 708px;
+                    height: 296px;
+                    float: left;
+                    // background-color: blue;
+                    .swiper-slide {
+                        text-align: center;
+                        font-size: 18px;
+                        background: #fff;
+                  
+                        /* Center slide text vertically */
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        display: flex;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        -webkit-align-items: center;
+                        align-items: center;
+                        img {
+                            width: 708px;
+                            height: 296px;
+                        }
+                    }
+                }
+                .banner_con_right {
+                    width: 289px;
+                    height: 296px;
+                    float: left;   
+                    position: relative;  
+                    .shareTo {
+                        position: absolute;
+                        top: 130px;
+                        left: 80px;
+                        width: 216px;
+                        height: 256px;
+                        display: none;
+                    }
+                    .banner_con_right_as {
+                        position: absolute;
+                        top: 100px;
+                        left: 72px;
+                        width: 150px;
+                        height: 24px;
+                        // background-color: red;
+                        #plus {
+                            display: inline-block;
+                            width: 25px;
+                            height: 24px;
+                            // margin: 6px 6px 6px 0;
+                            background: url(../images/icons_0_24.png) no-repeat 0 0;
+                        }
+                        #sinaWeibo {
+                            display: inline-block;
+                            width: 25px;
+                            height: 24px;
+                            // margin: 6px 6px 6px 0;
+                            background: url(../images/icons_0_24.png) no-repeat 0 -104px;
+                        }
+                        #qqSpace {
+                            display: inline-block;
+                            width: 25px;
+                            height: 24px;
+                            // margin: 6px 6px 6px 0;
+                            background: url(../images/icons_0_24.png) no-repeat 0 -52px;
+                        }
+                        #shareToWeChat {
+                            display: inline-block;
+                            width: 25px;
+                            height: 24px;
+                            // margin: 6px 6px 6px 0;
+                            background: url(../images/icons_0_24.png) no-repeat 0 -1612px;
+                        }
+                        #qqFriends {
+                            display: inline-block;
+                            width: 25px;
+                            height: 24px;
+                            // margin: 6px 6px 6px 0;
+                            background: url(../images/icons_0_24.png) no-repeat 0 -2652px;
+                        }
+                    }             
+                    img {
+                        width: 289px;
+                        height: 296px;                        
+                    }
+                }
+            }
+
+            /* content 部分 start */
+            #content {
+                width: 1175px;
+                // height: 100%;
+                // height: 1000px;
+                // background-color: pink;
+                .content_notice{
+                    padding-left: 10px;
+                    height: 48px;
+                    border: 1px solid #fed6d6;
+                    line-height: 48px;
+                    background-color: #fdfce7;
+                    margin-bottom: 15px;
+                    font-size: 15px;
+                    color: #b5b5ae;
+                 }
+                 .secondsKillSelected {
+                     width: 1175px;
+                    //  height: 1000px;
+                     overflow: hidden;
+                    //  background-color: yellow;
+                     .secondsKillSelected_head {
+                         width: 100%;
+                         height: 60px;
+                        //  background-color: red;
+                         .secondsKillSelected_head_left {
+                             width: 290px;
+                             height: 100%;
+                             line-height: 60px;
+                            //  background-color: blue;
+                             float: left;
+                             h3 {
+                                 float: left;
+                                 font-weight: normal;
+                                 font-size: 20px;
+                                 color: #5e5f5f;
+                                 margin-right: 20px;
+                             }
+                             p {
+                                 float: left;
+                                 font-size: 14px;
+                                 color: #fca8c0;
+                             }
+                         }
+                         .secondsKillSelected_head_right {
+                             width: 200px;
+                             height: 100%;
+                             line-height: 60px;
+                            //  background-color: orange;
+                             float: right;
+                             p {
+                                 font-size: 16px;
+                                 color: #e3c0c1;
+                             }
+                         }
+                     }
+                     .secondsKillSelected_product {
+                         width: 1204px;
+                        //  height: 100%;
+                        //  background-color: red;
+                         overflow: hidden;
+                         .secondsKillSelected_product_box {
+                             float: left;
+                            //  box-sizing: border-box;
+                            // box-sizing: content-box;
+                             width: 570px;
+                             height: 270px;                            
+                             margin-right: 30px;
+                             margin-bottom: 20px;                             
+                            background-color: #fffcfd;
+                            border: 1px solid #f3f3f3;
+                             a {
+                                //  display: inline-block;
+                                float: left;
+                                 width: 288px;
+                                 height: 270px;
+                                 img {
+                                     width: 288px;
+                                     height: 270px;
+                                 }
+                                 
+                             }
+                             .secondsKillSelected_product_content {    
+                                 position: relative;       
+                                float: left;
+                                 width: 262px;
+                                 height: 100%;
+                                //  background-color: #fff;
+                                padding-top: 30px;
+                                padding-left: 20px;
+                                // padding-right: 52px;
+                                h3 {
+                                    font-size: 15px;
+                                    color: #7a8490;
+                                    font-weight: normal;
+                                    margin-bottom: 30px;
+                                }
+                                .expirationTime {
+                                    width: 220px;
+                                    height: 26px;                               
+                                    position: relative;
+                                    margin-bottom: 15px;
+                                    p {                                        
+                                        &:nth-of-type(1) {
+                                            float: left;
+                                            width: 73px;
+                                            height: 24px;
+                                            line-height: 24px;
+                                            text-align: center;
+                                            font-size: 12px;
+                                            color: #ff0054;
+                                            border: 1px dotted #ff478c; 
+                                        }
+                                        &:nth-of-type(2) {
+                                            float: left;
+                                            font-size: 13px;
+                                            color: #fb7c8d;
+                                            padding-left: 15px;
+                                            position: absolute;
+                                            right:0;
+                                            bottom: 0;
+                                        }
+                                    }
+                                }
+                                .couponBalance {
+                                    color: #3a4147;
+                                    font-size: 12px;
+                                    margin-bottom: 20px;
+                                    i {
+                                        color: #ff1d3e;
+                                    }
+                                }
+                                .sales {
+                                    font-size: 12px;
+                                    color: #3a4147;
+                                    margin-bottom: 22px;
+                                    i {
+                                        color: #ff66a7;
+                                    }
+                                }
+                                .goBuy {
+                                    position: absolute;
+                                    right: 0;
+                                    bottom: 30px;
+                                    width: 262px;
+                                    height: 50px;
+                                    background-color: #ff435e;
+                                    .buy_price {
+                                        float: left;
+                                        font: 36px/50px Arial;
+                                        font-weight: bold;
+                                        padding-left: 15px;
+                                        color: #ffffff;
+
+                                    }
+                                    .old_price {
+                                        float: left;
+                                        height: 30px;
+                                        margin: 10px 0;
+                                        text-align: left;
+                                        margin-left: 10px;
+                                        p {
+                                            display: block;
+                                            height: 16px;
+                                            margin: 0;
+                                            padding: 0;
+                                            color: #fef181;
+                                            line-height: 16px;
+                                            text-decoration: line-through;
+                                        }
+                                        span {
+                                            display: block;
+                                            height: 12px;
+                                            font: 12px/12px "Microsoft Yahei";
+                                            color: #fff;
+                                        }
+                                    }
+                                    .go_buy {
+                                        position: absolute;
+                                        right: 0;
+                                        background: -webkit-gradient(linear, 0 0, right 0, from(#fef490), to(#fee44d));
+                                        a {
+                                            width: 92px;
+                                            height: 50px;
+                                            line-height: 50px;
+                                            text-align: center;
+                                            color: #f61d5a;
+                                            display: block;
+                                            &::before {
+                                                position: absolute;
+                                                // width: 10px;
+                                                // height: 60px;
+                                                display: block;
+                                                content: "";
+                                                top: 0;
+                                                left: -12px;
+                                                border-top: 25px solid transparent;
+                                                border-bottom: 25px solid transparent;
+                                                border-right: 12px solid #fef490;
+                                                width: 0;
+                                                height: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                             }
+                             &:hover {
+                                 border: 1px solid #ff0000;
+                             }
+                         }
+                     }
+                 }
+                 .preferentialLive {
+                    width: 1175px;
+                    //  height: 1000px;
+                     overflow: hidden;
+                    //  background-color: yellow;
+                     .discount_head {
+                        height: 50px;
+                        width: 100%;
+                        margin-bottom: 10px;
+                        .dishead_left {
+                            width: 400px;
+                            height: 50px;
+                            line-height: 50px;
+                            float: left;
+                            h1 {
+                                font-weight: normal;
+                                display: inline-block;
+                                font-size: 20px;
+                                color: #585858;
+                                .tatal {
+                                    background-color: #5dcac5;
+                                    color: #FFFFFF;
+                                    padding: 3px 7px;
+                                    border-radius: 15px;
+                                    font-family: 'Arial';
+                                    margin-left: 10px;
+                                    margin: 0px 6px;
+                                    letter-spacing: 0px;
+                                    font-size: 17px;
+                                }
+                            }
+                        }
+                        .dishead_right {
+                            width: auto;
+                            height: 50px;
+                            line-height: 50px;
+                            font-size: 16px;
+                            float:right;
+                            a {
+                                text-decoration: none;
+                                &:hover {
+                                    color: #333;
+                                }
+                                span {
+                                    color: #505050;
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                     }
+                     .main_container {
+                        width: 1200px;
+                        margin: 0 auto;
+                        position: relative;
+                        border: #eee 1px solid;
+                        border-bottom: none;
+                        font: 12px/1.5 "Simsun";
+                        background-color: #f9f9f9;
+                        .cat_list {
+                            background: #f9f9f9;
+                            display: block;
+                            border-bottom: #eee 1px solid;
+                            ul {
+                                background: white;
+                                list-style: none;
+                                float: left;
+                                padding: 10px 0;
+                                padding-left: 30px;
+                                line-height: 30px;
+                                width: 1068px;
+                                li {
+                                    list-style: none;
+                                    float: left;
+                                    margin-right: 17px;
+                                    .color {
+                                        color: #ff6255;
+                                    }
+                                    a {
+                                        color: #4C4C4C;
+                                        position: relative;
+                                        text-decoration: none;
+                                        &:hover {
+                                            color: #ff6255;
+                                        }
+                                        b {
+                                            font-family: Arial;
+                                            font-weight: normal;
+                                            color: #999;
+                                            margin-left: 6px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                     }
+                     .tag_wrap {
+                        width: 1175px;
+                        margin: 0 auto;
+                        background-color: #f9f9f9;
+                        height: 38px;
+                        line-height: 38px;
+                        position: relative;
+                        border: #eee 1px solid;
+                        font: 12px/1.5 "Simsun";
+                        .fixed_wrap {
+                            float: left;
+                            position: absolute;
+                            left: 0;
+                            top: -1px;
+                            // max-width: 1108px;
+                            .tag_fixed {
+                                /* float: left;
+                                border-right: #eee 1px solid;
+                                padding: 0 20px;
+                                position: relative; */
+                                float: left;
+                                line-height: 40px;
+                                height: 39px;
+                                border-right: #eee 1px solid;
+                                padding: 0 20px;
+                                color: #666;
+                                position: relative;
+                            }
+                            .active {
+                                border-top: 2px red solid;
+                                color: #FF0000;
+                                background: white;
+                                line-height: 36px;
+                                height: 37px;
+                            }
+                        }
+                        .goods_pages_page {
+                            text-align: center;
+                            position: absolute;
+                            right: 18px;
+                            top: 7px;
+                            height: 26px;
+                            line-height: 26px;
+                            .pagebtn_pre_page {
+                                width: 8px;
+                                height: 14px;
+                                float: left;
+                                cursor: pointer;
+                                margin-top: 6px;
+                                text-align: center;
+                                line-height: 26px;                              
+                                    a {
+                                        background: url(../images/cms_pc_img.png) -53px -93px no-repeat;
+                                        display: block;
+                                        width: 8px;
+                                        height: 14px;
+                                    }                               
+                              
+                            }
+                            .page_num {
+                                font-size: 14px;
+                                margin: 0 13px;
+                                float: left;
+                                color: #666;
+                                font-family: Arial;
+                                b {
+                                    color: #ff6255;
+                                }
+                            }
+                            .pagebtn_next_page {
+                                width: 8px;
+                                height: 14px;
+                                float: left;
+                                cursor: pointer;
+                                margin-top: 6px;
+                                text-align: center;
+                                line-height: 26px;                             
+                                a {
+                                    background: url(../images/cms_pc_img.png) -77px -93px no-repeat;
+                                    display: block;
+                                    width: 8px;
+                                    height: 14px;
+                                }   
+                            }
+                        }
+                     }
+                     .goods_list {
+                        width: 1200px;
+                        margin: 0 auto;
+                        overflow: hidden;
+                        .active {
+                            display: block;
+                        }
+                        ul {
+                            font: 12px Simsun;
+                            list-style: none;
+                            display: none;
+                            margin: 0;
+                            padding: 0;
+                            li {
+                                float: left;
+                                list-style: none;
+                                margin: 0;
+                                padding: 0;
+                                margin-right: 18px;
+                                border: 1px solid #eee;
+                                height: 392px;
+                                width: 278px;
+                                // height: 392px;
+                                // width: 280px;
+                                margin-bottom: 20px;
+                                background: #fff;
+                                display: block;
+                                overflow: hidden;
+                                &:hover {
+                                    border: 1px solid #ff3e80;
+                                }
+                                .img {
+                                    position: relative;
+                                    display: block;
+                                    width: 284px;
+                                    height: 284px;
+                                    margin: 0;
+                                    padding: 0;
+                                    i {
+                                        width:40px;
+                                        height:40px;
+                                        left:0;
+                                        top: -1px;
+                                        position:absolute;
+                                        background: url(../images/cms_pc_img.png) 0 -78px no-repeat;
+                                        overflow: hidden;
+                                    }
+                                    img {
+                                        border: none;
+                                        max-width: 284px;
+                                        max-height: 284px;
+                                        vertical-align: middle;
+                                    }
+                                }
+                                .goods_padding {
+                                    padding: 18px 12px;
+                                    b {
+                                        font-family:"Arial";
+                                    }
+                                    i {
+                                        font-family:"Microsoft Yahei";
+                                        font-size:14px;
+                                    }
+                                    .coupon_wrap {
+                                        position:relative;
+                                        height: 26px;
+                                        display: block;
+                                        width: 100%;
+                                        margin-bottom: 12px;
+                                        .price {
+                                            height: 26px;
+                                            line-height: 18px;
+                                            color: #ff0060;
+                                            float: left;
+                                            overflow: hidden;
+                                            b {
+                                                font-size: 30px;
+                                                padding-right: 2px;
+                                                line-height: 28px;
+                                            }
+                                        }
+                                        .old_price {
+                                            float: left;
+                                            width: 50px;
+                                            margin-left: 10px;
+                                            text-decoration: line-through;
+                                            height: 26px;
+                                            font: 14px "Microsoft Yahei";
+                                            color: #aaa;
+                                            line-height: 40px;
+                                        }
+                                        .coupon {
+                                            position:absolute;
+                                            right:0;
+                                            font: 12px "Simsun";
+                                            text-align: center;
+                                            background: #fff7fa;
+                                            color: #ff0060;
+                                            height: 24px;
+                                            line-height: 24px;
+                                            padding: 0 8px;
+                                            margin-left: 10px;
+                                            margin: 0;
+                                            border: dotted 1px #ff0060;
+                                            border-left: none;
+                                            border-right: none;
+                                            b {
+                                                font-size: 14px;
+                                                font-family: "Microsoft Yahei";
+                                                float: right;
+                                                position: relative;
+                                            }
+                                            .quan_left {
+                                                position:absolute;
+                                                top: 0;
+                                                left: 0;
+                                                width: 6px;
+                                                height: 24px;
+                                                background: url(../images/cms_pc_img.png) -120px -79px no-repeat;
+                                            }
+                                            .quan_right {
+                                                position:absolute;
+                                                top: 0;
+                                                width: 6px;
+                                                height: 24px;
+                                                background: url(../images/cms_pc_img.png) -120px -79px no-repeat;
+                                                right: 0;
+                                                background-position-x: -136px;
+                                            }
+                                        }
+                                    }
+                                    .title {
+                                        height: 14px;
+                                        overflow: hidden;
+                                        display: block;
+                                        line-height: 14px;
+                                        letter-spacing: 0.5px;
+                                        margin-bottom: 13px;
+                                        a {
+                                            color: #444;
+                                        }
+                                    }
+                                    .goods_num_type {
+                                        display: block;
+                                        position: relative;
+                                        height: 16px;
+                                        line-height: 16px;
+                                        .goods_type {
+                                            position: absolute;
+                                            right: 0;
+                                            top: 0;
+                                            i {     
+                                            font-family: "Microsoft Yahei";
+                                            font-size: 14px;   
+                                            background-position-x: -78px;                                    
+                                            width: 16px;
+                                            height: 16px;
+                                            margin-left: 5px;
+                                            float: left;
+                                            background: url(../images/cms_pc_img.png) -78px 0 no-repeat;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                     }
+                     .page {
+                        text-align: center;
+                        margin: 0 auto;
+                        display: table;
+                        margin-bottom: 56px;
+                        /* span {
+                            float: left;
+                            font-size: 14px;
+                            line-height: 14px;
+                            color: rgb(255, 255, 255);
+                            padding: 10px 18px;
+                            margin: 0px 6px;
+                            background: rgb(255, 51, 102);
+                        }
+                        a {
+                            display: block;
+                            font-size: 14px;
+                            line-height: 14px;
+                            color: rgb(51, 51, 51);
+                            float: left;
+                            padding: 10px 14px;
+                            text-decoration: none;
+                            margin: 0px 2px;
+                            border-right: 1px solid rgb(153, 153, 153);
+                            border-bottom: 1px solid rgb(153, 153, 153);
+                            background: rgb(255, 255, 255);
+                        } */
+                     }
+                 }
+
+            }
+            /* content 部分  end */
+        }
+        /* dtk_mian 部分  end */
+
+
+        /* footer 部分 start */
+        .footer {
+            // width: 100%;
+            // height: 190px;
+            // background-color: #373737;
+            background-color: #373737;
+            height: 190px;
+            width: 100%;
+            border-top: 3px solid #ff3366;
+            .footer_wrapper {
+                width: 1200px;
+                margin: 0 auto;
+                position: relative;
+                text-align: center;
+                img {
+                    border: 0;
+                    margin-top: 50px;
+                }
+                .author {
+                    position: absolute;
+                    top: 67px;
+                    left: 990px;
+                    color: #FFFFFF;
+                    font-size: 18px;
+                }
+                .text {
+                    color: #a2a2a2;
+                    font-size: 16px;
+                    margin-top: 33px;
+                }
+            }
+        }
+        /* footer 部分  end */
+
+/* 火箭部分 start   点击回到顶部 */
+        .toTop {                     
+            position: fixed;
+            right: 70px;
+            bottom: 70px;
+            line-height: 50px;
+            text-align: center;
+            border: 1px solid #CCCCCC;
+            border-radius: 50px;
+            color: #858585;
+            width: 50px;
+            height: 50px;
+            font-size: 36px;
+            cursor: pointer;
+            background-color: #fff;
+            display: none;  
+            i {                
+                font-size: 30px;
+            }
+            &:hover {
+                i {
+                    color: #ea2a60;
+                }
+            }
+        }
+/* 火箭部分  end   点击回到底部 */
+}
+/* .active {
+    display: block;
+}
+.color {
+    background-color: #ff6255;
+} */
+

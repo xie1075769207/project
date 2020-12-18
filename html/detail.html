@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/detail.css">
+</head>
+<body>
+<!-- navTop 部分  start -->
+
+<!-- navTop 部分 end -->
+<div class="navTop">
+    <div class="top">
+        <div class="navTop_left">
+            <a href="./login.html" id="userLogin">用户登录</a>
+            <a href="./register.html" id="mfRegister">免费注册</a>
+            <a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=100279011&redirect_uri=http://club.qqku.com/index.do&state=205962e60bdaa73ecd7c57035b243ca1&scope=get_user_info" id="qq">
+                <img src="../images/Connect_logo.png" alt="">
+            </a>
+            <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx22d760ee3dabde1d&redirect_uri=http%3A%2F%2Fclub.qqku.com%3Ftab%3Dwxlogin&response_type=code&scope=snsapi_login&state=wxlogin#wechat_redirect" id="wx">
+                <img src="../images/wxico.png" alt="">
+            </a>
+            <a href="https://api.weibo.com/oauth2/authorize?client_id=3619957868&redirect_uri=http%3A%2F%2Fclub.qqku.com%2F%3Ftab%3Dwblogin%26op%3Dback%26r%3Dhttp%253A%252F%252F3218093464.qqku.com%26h%3D3218093464&response_type=code###" id="wb">
+                <img src="../images/weibo_login_s.png" alt="">
+            </a>
+        </div>
+        <ul class="navTop_right">
+            <li><a href="javascript:void();" class="setToTheHomepage" onclick="alert('您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入：http://3218093464.qqku.com/点击确定。')">设为首页</a></li>
+            <li><a href="javascript:void();" class="joinTheCollection">加入收藏</a></li>
+            <li><a href="https://shang.qq.com//email/stop/email_stop.html" class="toContactMe">遇到购物问题？联系我&gt;</a></li>
+        </ul>
+    </div>       
+</div>
+<!-- headNav 部分 start -->
+<div class="headNav">
+    <div class="head">
+        <div class="headLogo">
+            <h1>
+                <a href="./index.html">
+                    <img src="../images/logo.jpg" alt="">
+                </a>
+            </h1>
+        </div>
+        <div class="headSearch">
+            <input type="text" class="headSearchText" placeholder="好宝贝 等你搜">
+            <input type="submit" class="headSearchSubmit" value="搜索">
+        </div>
+        <div class="headImgs">
+            <div class="headImgsOne"></div>
+            <div class="headImgsTwo"></div>
+            <div class="headImgsThree"></div>
+        </div>
+    </div>
+
+</div>
+<!-- headNav 部分 end -->
+
+<!-- banner 部分 start -->
+<div class="banner">
+    <div class="bannerContent">
+        <!-- <a href="#" class="homePage">
+            <i class="iconfont icon-fenlei3"></i>
+            <span>网站首页</span>
+        </a>
+        <a href="#" class="bannerContent_a">领劵优惠直播</a>
+        <a href="#" class="bannerContent_a">实时跑量</a>
+        <a href="#" class="bannerContent_a">超级人气榜</a>
+        <a href="#" class="bannerContent_a">9块9包邮</a>
+        <a href="#" class="bannerContent_a">20元封顶</a>
+        <a href="#" class="bannerContent_a">钜惠券</a> -->
+    </div>
+</div>
+
+<!-- dtk_mian 部分  start -->
+<div class="dtk_mian">
+    <div class="detail-wrap">
+        <div class="nav-wrap">
+            <div class="text"><a href="/">首页</a> /
+                                            <a href="/index.do?tab=qlist">领券直播</a> /
+                                           
+                            <span>商品详情</span>
+            </div>
+        </div>
+        <div class="detail-row clearFix" id="detail_row">
+            <!-- <a rel="nofollow" href="javascript:;" arget="_blank" class="img ">
+                <img src="https://img.alicdn.com/bao/uploaded/i2/2207431632026/O1CN016RkmiF1Qpx4eMCOAd_!!0-item_pic.jpg_400x400.jpg" alt="">
+            </a>
+            <div class="detail-col">
+                <a class="title clearFix ">
+                                         
+                                        <span class="tmall"></span> 
+                                    <span class="title">20个只要1.9元！医用成人口罩！</span>
+                </a>
+                <div class="desc">
+                                        <span>推荐理由：【拍第二个选项】20个装速屯！成人一次性医用口罩！熔喷布是口罩的“心脏”！三层防护中间熔喷布，自由呼吸，高密度，有效阻止飞沫传播，给儿童好的防护~</span>
+                                </div>
+                
+                <div class="coupon-wrap clearFix">
+                    <span class="now-price"><b>(独享)</b>券后价&nbsp;&nbsp;<b>¥<i>1.90</i></b></span>
+                    <span class="org-price">在售价&nbsp;&nbsp;¥<i>4.9</i></span>
+                 
+                                </div>
+    
+                <div class="text-wrap">
+                    <span class="text-wrap-span">
+                          已领券<i>43000</i>张，手慢无
+                     </span>
+                    <span>已有<i>1770931</i>人购买</span>
+    
+                                </div>
+    
+                                                    <div class="ehy-normal clearfix">
+                            <div class="buy-coupon">
+                                <span>优惠券</span>
+                                <span><b><i>￥</i>3</b></span>
+                            </div>
+                            <a rel="nofollow" href="/gotourl_q_new20160522.php?iid=616202233158&amp;aliaccount=YnV5X29ubHk=&amp;fullpid=mm_10079946_808500453_109363850267&amp;relation_id=&amp;unid=1A7GZ&amp;url=https%3A%2F%2Fuland.taobao.com%2Fcoupon%2Fedetail%3Fe%3D2taqsmzFDc8E%252BdAb1JoOOrPIGXhC2EGxrhUGx4CZRjCRcO4CsyVE6xx%252BwbZ07B68SK96w0RaP2Tw8mz8SaJMoCbt%252FarubFCTv1%252FAHDBSKqVC5sRNVRUzK4EhHlQSrUuvwdWr93Gr8MBMmdsrkidbOd3h1FtNvlY31WozoFaXPfzYFjT1LUxpWHpBqax56AFC3nIXfsO4zIWnhyt7ij72%252BQ%253D%253D%26traceId%3D0bb6ad0416081084722516417ec3dd%26union_lens%3DlensId%3ATAPI%401608108472%400b57b768_3cfd_1766abbf7c6_544d%4001" target="_blank"> 领券购买</a>
+                        </div>
+                                
+                <div class="goods-tit-type">
+                    <div class="goods-type">
+                        <i class="tmall" title="天猫"></i>					 					<i class="you" title="优品"></i>
+                    </div>
+                </div>
+    
+                <div class="text2">
+                    <span>如果您喜欢此宝贝，记得分享给您的朋友，一起享优惠：</span>
+                    <div class="bdshare">
+                        <div class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1608108468140">
+                            <a href="#" class="bds_more" data-cmd="more"></a>
+                            <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                            <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                            <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                        </div>
+                        <script>
+                            window._bd_share_config = {
+                                "common": {
+                                    "bdSnsKey": {},
+                                    "bdText": "最近发现了一个领内部优惠券的网站，都是限时限量抢购，一般人享受不到的！性价比超高哦，分享给大家，保证你会惊喜滴！",
+                                    "bdMini": "2",
+                                    "bdMiniList": false,
+                                    "bdPic": "",
+                                    "bdStyle": "0",
+                                    "bdSize": "16"
+                                }, "share": {}
+                            };
+                            with (document)0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+                        </script>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="pos-right">
+                <p><span>大家都在抢</span></p>
+                <div class="pos-box">
+                    <div class="pos-goods-list top" style="height: 3480px; top: -1305px;">
+                                       <a class="pos-goods" title="【限量！得抢】不锈钢厨房置物架" target="_blank" href="/?tab=qproduct&amp;iid=594763226083">
+                           <img alt="【限量！得抢】不锈钢厨房置物架" src="https://img.alicdn.com/imgextra/i2/2493256648/O1CN01kTokMJ1yypfCJSu5x_!!2493256648.jpg_130x130.jpg">
+                           <span>券后：¥9.90</span>
+                      </a>
+                                         <a class="pos-goods" title="【维达代工厂】厨房专用吸油纸3大包" target="_blank" href="/?tab=qproduct&amp;iid=632521534858">
+                           <img alt="【维达代工厂】厨房专用吸油纸3大包" src="https://img.alicdn.com/imgextra/i1/2208437894964/O1CN010EQeFb1mXYiAezrPM_!!2208437894964.jpg_130x130.jpg">
+                           <span>券后：¥7.80</span>
+                      </a>
+                                         <a class="pos-goods" title="新券！20贴袋鼠自发热暖贴暖宝宝保暖宫" target="_blank" href="/?tab=qproduct&amp;iid=625671741315">
+                           <img alt="新券！20贴袋鼠自发热暖贴暖宝宝保暖宫" src="https://img.alicdn.com/i3/2207705926212/O1CN010i3lNM1vl8zsS4tLf_!!2207705926212.jpg_130x130.jpg">
+                           <span>券后：¥8.90</span>
+                      </a>
+                                         <a class="pos-goods" title="【乐力】益生菌小蓝条一盒20条" target="_blank" href="/?tab=qproduct&amp;iid=536892809132">
+                           <img alt="【乐力】益生菌小蓝条一盒20条" src="https://img.alicdn.com/imgextra/i2/2911666548/O1CN01b63Y3a1yF20HNl45X_!!2911666548.jpg_130x130.jpg">
+                           <span>券后：¥14.00</span>
+                      </a>
+                                         <a class="pos-goods" title="【南极人】保暖老寒腿关节自发热护膝" target="_blank" href="/?tab=qproduct&amp;iid=544318924892">
+                           <img alt="【南极人】保暖老寒腿关节自发热护膝" src="https://img.alicdn.com/imgextra/i4/1698892796/O1CN014TdD581WWc2G3BZhN_!!1698892796.jpg_130x130.jpg">
+                           <span>券后：¥9.00</span>
+                      </a>
+                                         <a class="pos-goods" title="【大希地】脆皮火山石烤肠20根" target="_blank" href="/?tab=qproduct&amp;iid=616729634595">
+                           <img alt="【大希地】脆皮火山石烤肠20根" src="https://img.alicdn.com/imgextra/i3/1918385168/O1CN01hX2iKC1o2zViczSII_!!1918385168.jpg_130x130.jpg">
+                           <span>券后：¥35.90</span>
+                      </a>
+                                         <a class="pos-goods" title="【诺梵】圣诞节松露巧克力100颗送圣诞帽" target="_blank" href="/?tab=qproduct&amp;iid=607845964933">
+                           <img alt="【诺梵】圣诞节松露巧克力100颗送圣诞帽" src="https://img.alicdn.com/i4/848228203/O1CN016SUYEK2AT1Z7rpL0J_!!848228203.jpg_130x130.jpg">
+                           <span>券后：¥29.90</span>
+                      </a>
+                                         <a class="pos-goods" title="棉拖鞋女家居冬季情侣室内包跟厚底" target="_blank" href="/?tab=qproduct&amp;iid=624874306464">
+                           <img alt="棉拖鞋女家居冬季情侣室内包跟厚底" src="//img.alicdn.com/imgextra/i2/2121402114/O1CN01VlYCVo1RUFvVIbNI4_!!2121402114-0-lubanu-s.jpg_130x130.jpg">
+                           <span>券后：¥7.90</span>
+                      </a>
+                                         <a class="pos-goods" title="【两面针旗舰店】红豆薏米芡实茶150g" target="_blank" href="/?tab=qproduct&amp;iid=633744013074">
+                           <img alt="【两面针旗舰店】红豆薏米芡实茶150g" src="https://img.alicdn.com/imgextra/i1/2643760953/O1CN01r8AFBq1IuW5pgDIwT_!!2643760953-2-daren.png_130x130.jpg">
+                           <span>券后：¥9.90</span>
+                      </a>
+                                         <a class="pos-goods" title="【罗马仕旗舰店】苹果快充数据线1米" target="_blank" href="/?tab=qproduct&amp;iid=595840948778">
+                           <img alt="【罗马仕旗舰店】苹果快充数据线1米" src="https://img.alicdn.com/imgextra/i1/1952819637/O1CN01dpY0dW2L3nWnuEg8E_!!1952819637.png_130x130.jpg">
+                           <span>券后：¥1.90</span>
+                      </a>
+                                         <a class="pos-goods" title="【20片】润暖暖贴 自发热暖宝宝" target="_blank" href="/?tab=qproduct&amp;iid=523057656808">
+                           <img alt="【20片】润暖暖贴 自发热暖宝宝" src="https://img.alicdn.com/imgextra/i3/436776929/O1CN01v8V7P0213Wz3watUA_!!436776929.jpg_130x130.jpg">
+                           <span>券后：¥7.80</span>
+                      </a>
+                                         <a class="pos-goods" title="【摩西欧】充电式毛球修剪器去毛球" target="_blank" href="/?tab=qproduct&amp;iid=628403155577">
+                           <img alt="【摩西欧】充电式毛球修剪器去毛球" src="//img.alicdn.com/imgextra/i4/2208705124900/O1CN01uvfRI61m4FLi3Bi1M_!!2208705124900.png_130x130.jpg">
+                           <span>券后：¥9.90</span>
+                      </a>
+                                         <a class="pos-goods" title="【七度空间官旗】超熟睡安心裤3包*3片" target="_blank" href="/?tab=qproduct&amp;iid=617830128093">
+                           <img alt="【七度空间官旗】超熟睡安心裤3包*3片" src="https://img.alicdn.com/imgextra/i4/3961118975/O1CN01fsydi62GAbKItLBae_!!2-item_pic.png_130x130.jpg">
+                           <span>券后：¥19.90</span>
+                      </a>
+                                         <a class="pos-goods" title="【南极人】薰衣草留香洗衣液" target="_blank" href="/?tab=qproduct&amp;iid=596021579374">
+                           <img alt="【南极人】薰衣草留香洗衣液" src="https://img.alicdn.com/imgextra/i2/899107167/O1CN01YC9XSN22oXD0MFgan_!!899107167.jpg_130x130.jpg">
+                           <span>券后：¥9.90</span>
+                      </a>
+                                         <a class="pos-goods" title="【大牌仁和】焕颜美白祛斑霜" target="_blank" href="/?tab=qproduct&amp;iid=625893087763">
+                           <img alt="【大牌仁和】焕颜美白祛斑霜" src="https://img.alicdn.com/imgextra/i3/2130096995/O1CN01b1Pw2m21Xl6K5bLnQ_!!2130096995.jpg_130x130.jpg">
+                           <span>券后：¥9.90</span>
+                      </a>
+                                         <a class="pos-goods" title="【晨光】回形针一盒+6支中性笔" target="_blank" href="/?tab=qproduct&amp;iid=614382262420">
+                           <img alt="【晨光】回形针一盒+6支中性笔" src="https://img.alicdn.com/imgextra/i4/3697149989/O1CN01tUVi3c2Nf0r9WZEs2_!!3697149989.jpg_130x130.jpg">
+                           <span>券后：¥1.90</span>
+                      </a>
+                                         <a class="pos-goods" title="【30只】可孚一次性医用外科防尘透气口罩" target="_blank" href="/?tab=qproduct&amp;iid=616974150512">
+                           <img alt="【30只】可孚一次性医用外科防尘透气口罩" src="https://img.alicdn.com/bao/uploaded/O1CN01ToM0jB1fXpcvQxhDt_!!6000000004017-2-yinhe.png_130x130.jpg">
+                           <span>券后：¥5.90</span>
+                      </a>
+                                         <a class="pos-goods" title="【4个装】网红长柄不锈钢汤匙" target="_blank" href="/?tab=qproduct&amp;iid=630138233753">
+                           <img alt="【4个装】网红长柄不锈钢汤匙" src="https://img.alicdn.com/imgextra/i1/52319595/O1CN01OzpoZ52KkYtWIXsHj_!!52319595.png_130x130.jpg">
+                           <span>券后：¥9.90</span>
+                      </a>
+                                         <a class="pos-goods" title="螺师皇正宗柳州螺蛳粉345g*2大袋" target="_blank" href="/?tab=qproduct&amp;iid=627043213329">
+                           <img alt="螺师皇正宗柳州螺蛳粉345g*2大袋" src="//img.alicdn.com/imgextra/i4/2208543568140/O1CN01AIt4aD2A0Ab6o71sb_!!2208543568140.jpg_130x130.jpg">
+                           <span>券后：¥9.90</span>
+                      </a>
+                                         <a class="pos-goods" title="【亨博士】鸡内金山楂咀嚼片100粒" target="_blank" href="/?tab=qproduct&amp;iid=624577308735">
+                           <img alt="【亨博士】鸡内金山楂咀嚼片100粒" src="https://img.alicdn.com/i1/2775741203/O1CN01sqXajx1Kl166WVRIZ_!!2775741203.jpg_130x130.jpg">
+                           <span>券后：¥9.90</span>
+                      </a>
+                                         <a class="pos-goods" title="三山半！正宗湖南麻阳孕妇级冰糖橙子5斤" target="_blank" href="/?tab=qproduct&amp;iid=632033108262">
+                           <img alt="三山半！正宗湖南麻阳孕妇级冰糖橙子5斤" src="https://img.alicdn.com/imgextra/i3/2989265740/O1CN01E1dD3R1sGy3pRIAA4_!!2989265740.jpg_130x130.jpg">
+                           <span>券后：¥6.80</span>
+                      </a>
+                                         <a class="pos-goods" title="【仁和药业】便携式口气清新剂15mL" target="_blank" href="/?tab=qproduct&amp;iid=627483020952">
+                           <img alt="【仁和药业】便携式口气清新剂15mL" src="https://img.alicdn.com/bao/uploaded/O1CN01xVGpgb1qYi9hhFbh6_!!2-item_pic.png_130x130.jpg">
+                           <span>券后：¥5.90</span>
+                      </a>
+                                         <a class="pos-goods" title="【宇风】德国刀具厨房套装菜刀5件套" target="_blank" href="/?tab=qproduct&amp;iid=614524695007">
+                           <img alt="【宇风】德国刀具厨房套装菜刀5件套" src="https://img.alicdn.com/imgextra/i2/2205573506631/O1CN01APUp7y1yr2vIze6B1_!!0-item_pic.jpg_130x130.jpg">
+                           <span>券后：¥39.00</span>
+                      </a>
+                                         <a class="pos-goods" title="【9.9秒杀】形象美深海藻眼膜6" target="_blank" href="/?tab=qproduct&amp;iid=586537874083">
+                           <img alt="【9.9秒杀】形象美深海藻眼膜6" src="https://img.alicdn.com/imgextra/i3/2921409858/O1CN01MPtiTA2Mh0zo2miRF_!!2921409858.jpg_130x130.jpg">
+                           <span>券后：¥9.90</span>
+                      </a>
+                                   
+                    </div>
+                </div>
+                <div class="pos-act">
+                    <a class="bot-btn" href="javascript:;"></a>
+                    <a class="top-btn" href="javascript:;"></a>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- 精品推荐图标  start -->
+    <div class="jipin-wrap">
+        <span class="jinpin-tit">精品推荐</span>
+        <span class="jinpin-txt">小编精挑细选好商品</span>
+    </div>
+    <!-- 精品推荐图标  end -->
+
+    <!-- 精品推荐商品列表  start -->
+    <div class="goods-list clearFix" id="goods-list">
+        <ul class="clearFix" id="uls">
+        
+                <!-- <li >
+                    <a href="" class="img" rel="nofollow" target="_blank">
+                        <img src="https://img.alicdn.com/imgextra/i3/791877623/O1CN01Pjo5Yo26BNq65XW5G_!!791877623.jpg_310x310.jpg" alt="">
+                    </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearFix">
+                            <span class="price"><b><i>￥</i>5.80</b>券后价</span>
+                            <span class="old-price"><i>￥</i>10.80</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>5.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="">【膜天下】小米系列高清钢化膜</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                            <span class="goods-num">销量<b>67562</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                                    <li >
+                    <a href="/?tab=qproduct&amp;iid=616974150512" class="img" rel="nofollow" target="_blank">
+                                            <img src="https://img.alicdn.com/bao/uploaded/O1CN01ToM0jB1fXpcvQxhDt_!!6000000004017-2-yinhe.png_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>5.90</b>券后价</span>
+                            <span class="old-price"><i>￥</i>15.90</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>10.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=616974150512">【30只】可孚一次性医用外科防尘透气口罩</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>587020</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li>
+                                    <li >
+                    <a href="/?tab=qproduct&amp;iid=613630291452" class="img" rel="nofollow" target="_blank">
+                                            <img src="https://img.alicdn.com/imgextra/i2/2201188731272/O1CN01ROXp8D1LGcNpJ82rm_!!2201188731272.jpg_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>19.90</b>券后价</span>
+                            <span class="old-price"><i>￥</i>29.90</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>10.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=613630291452">unifree一次性3d立体口罩30个</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>788609</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li>
+                                    <li >
+                    <a href="/?tab=qproduct&amp;iid=595840948778" class="img" rel="nofollow" target="_blank">
+                                            <img src="https://img.alicdn.com/imgextra/i1/1952819637/O1CN01dpY0dW2L3nWnuEg8E_!!1952819637.png_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>1.90</b>券后价</span>
+                            <span class="old-price"><i>￥</i>4.90</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>3.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=595840948778">【罗马仕旗舰店】苹果快充数据线1米</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>39993</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li>
+                                    <li >
+                    <a href="/?tab=qproduct&amp;iid=627043213329" class="img" rel="nofollow" target="_blank">
+                                            <img src="//img.alicdn.com/imgextra/i4/2208543568140/O1CN01AIt4aD2A0Ab6o71sb_!!2208543568140.jpg_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>9.90</b>券后价</span>
+                            <span class="old-price"><i>￥</i>14.90</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>5.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=627043213329">螺师皇正宗柳州螺蛳粉345g*2大袋</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>91986</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li>
+                                    <li >
+                    <a href="/?tab=qproduct&amp;iid=632521534858" class="img" rel="nofollow" target="_blank">
+                                            <img src="https://img.alicdn.com/imgextra/i1/2208437894964/O1CN010EQeFb1mXYiAezrPM_!!2208437894964.jpg_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>7.80</b>券后价</span>
+                            <span class="old-price"><i>￥</i>17.80</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>10.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=632521534858">【维达代工厂】厨房专用吸油纸3大包</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>36693</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li>
+                                    <li>
+                    <a href="/?tab=qproduct&amp;iid=616202233158" class="img" rel="nofollow" target="_blank">
+                                            <img src="https://img.alicdn.com/imgextra/i3/791877623/O1CN01UUwkxl26BNpSUjF6E_!!791877623.jpg_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>1.90</b>券后价</span>
+                            <span class="old-price"><i>￥</i>4.90</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>3.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=616202233158">20个只要1.9元！医用成人口罩！</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>1770931</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li>
+                                    <li>
+                    <a href="/?tab=qproduct&amp;iid=619009394839" class="img" rel="nofollow" target="_blank">
+                                            <img src="https://img.alicdn.com/imgextra/i1/2643760953/O1CN01bUExa21IuW5aqq4dS_!!2643760953-2-daren.png_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>6.90</b>券后价</span>
+                            <span class="old-price"><i>￥</i>11.90</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>5.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=619009394839">【天秀食品】手磨豆干小零食460g</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>32274</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li>
+                                    <li>
+                    <a href="/?tab=qproduct&amp;iid=633828523882" class="img" rel="nofollow" target="_blank">
+                                            <img src="//img.alicdn.com/imgextra/i1/3937219703/O1CN01cxYrkn2LY1fWqeQSC_!!3937219703.jpg_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>2.90</b>券后价</span>
+                            <span class="old-price"><i>￥</i>3.90</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>1.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=633828523882">【3双装】南方印迹草本除臭鞋垫</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>12922</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li>
+                                    <li>
+                    <a href="/?tab=qproduct&amp;iid=536892809132" class="img" rel="nofollow" target="_blank">
+                                            <img src="https://img.alicdn.com/imgextra/i2/2911666548/O1CN01b63Y3a1yF20HNl45X_!!2911666548.jpg_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>14.00</b>券后价</span>
+                            <span class="old-price"><i>￥</i>59.00</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>45.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=536892809132">【乐力】益生菌小蓝条一盒20条</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>123040</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li>
+                                    <li>
+                    <a href="/?tab=qproduct&amp;iid=632033108262" class="img" rel="nofollow" target="_blank">
+                                            <img src="https://img.alicdn.com/imgextra/i3/2989265740/O1CN01E1dD3R1sGy3pRIAA4_!!2989265740.jpg_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>6.80</b>券后价</span>
+                            <span class="old-price"><i>￥</i>11.80</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>5.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=632033108262">三山半！正宗湖南麻阳孕妇级冰糖橙子5斤</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>36075</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li>
+                                    <li>
+                    <a href="/?tab=qproduct&amp;iid=581351904804" class="img" rel="nofollow" target="_blank">
+                                            <img src="https://img.alicdn.com/i4/4187827933/O1CN01nvnSVZ28TMcb1Gm5t_!!4187827933.jpg_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>7.90</b>券后价</span>
+                            <span class="old-price"><i>￥</i>12.90</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>5.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=581351904804">《5斤》冰糖橙新鲜脐橙带箱</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>56474</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li>
+                                    <li>
+                    <a href="/?tab=qproduct&amp;iid=601139766151" class="img" rel="nofollow" target="_blank">
+                                            <img src="https://img.alicdn.com/bao/uploaded/TB1FJJmGrj1gK0jSZFuXXcrHpXa.png_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>9.90</b>券后价</span>
+                            <span class="old-price"><i>￥</i>49.90</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>40.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=601139766151">【媚族】小蘑菇气垫bb霜</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>26354</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li>
+                                    <li>
+                    <a href="/?tab=qproduct&amp;iid=623380698084" class="img" rel="nofollow" target="_blank">
+                                            <img src="https://img.alicdn.com/imgextra/i1/1822315018/O1CN01PD9Yww1mwI5LtqTN4_!!1822315018.jpg_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>6.90</b>券后价</span>
+                            <span class="old-price"><i>￥</i>16.90</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>10.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=623380698084">【三条】微米A类加厚吸水毛巾</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>161366</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li>
+                                    <li>
+                    <a href="/?tab=qproduct&amp;iid=601900050030" class="img" rel="nofollow" target="_blank">
+                                            <img src="https://img.alicdn.com/imgextra/i1/2001219007/O1CN014bcVod2GPFztlv2BI_!!2001219007.jpg_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>1.50</b>券后价</span>
+                            <span class="old-price"><i>￥</i>2.50</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>1.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=601900050030">台历2021年创意简约日历本</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>153589</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li>
+                                    <li>
+                    <a href="/?tab=qproduct&amp;iid=520177423084" class="img" rel="nofollow" target="_blank">
+                                            <img src="https://img.alicdn.com/imgextra/i1/1051474214/O1CN01Q4IMPX1h03d45hicW_!!1051474214.jpg_310x310.jpg" alt="">
+                                        </a>
+                    <div class="padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price"><b><i>￥</i>3.90</b>券后价</span>
+                            <span class="old-price"><i>￥</i>5.90</span>
+                            <span class="coupon"><em class="quan-left"></em>券<b><i>￥</i>2.00</b><em class="quan-right"></em></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/?tab=qproduct&amp;iid=520177423084">【得力】A4纸打印纸100张</a>
+                        </div>
+    
+                        <div class="goods-num-type">
+                     
+                            <span class="goods-num">销量<b>221681</b></span>
+                            <div class="goods-type">
+                              <i class="taobao" title="淘宝"></i> 
+                                                                              </div>
+                        </div>
+                    </div>
+    
+                </li> -->
+                                
+                 
+            </ul>
+    </div>
+    <!-- 精品推荐商品列表  end -->
+</div>
+<!-- dtk_mian 部分 end -->
+
+
+
+ <!-- footer部分 start -->
+ <div class="footer">
+    <div class="footer_wrapper">
+        <img src="../images/bottom_text.png" alt="">
+        <div class="author">by&nbsp;&nbsp;欢乐购网上购物商城</div>
+        <div class="text" style="color: #a2a2a2; font-size: 16px; margin-top: 33px;">
+            &copy; CopyRight&nbsp;&nbsp;2017 &nbsp;<a href="index01.html" target="_blank" rel="nofollow" style="color:#a2a2a2;">欢乐购网上购物商城</a>
+             &nbsp;http://3218093464.qqku.com&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow" style="color:#a2a2a2;">鲁ICP备13026856号-14</a>
+             &nbsp;&nbsp;<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3218093464&site=qq&menu=yes" style="color: #8da7cb" title="联系我帮你解答">^_^亲遇到问题，联系我帮你处理哈</a>
+        </div>
+    </div>
+
+</div>  
+<!-- footer部分 end -->
+
+<!-- 火箭部分 start   点击回到顶部 -->
+<div class="toTop">        
+    <i class="iconfont icon-huojian1"></i>
+</div>
+<!-- 火箭部分  end   点击回到底部 -->
+
+<script src="../jq/jquery/jquery.min.js"></script>
+<!-- <script src="../js/swiper-master/package/swiper-bundle.min.js"></script>   -->
+<script src="../js/pagination.js"></script>
+<script src="../js/cookie.js"></script>
+<script src="../js/ajax.js"></script>    
+<script src="../js/detail.js"></script>
+</body>
+</html>

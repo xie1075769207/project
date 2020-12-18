@@ -1,0 +1,217 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    #head {
+        width: 1000px;
+        height: 75px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        h1 {
+            margin-top: 5px;
+            height: 75px;
+            background-color: #ffffff;
+            a {
+                img {
+                    width: 147px;
+                    height: 70px;
+                }
+            }
+        }
+    }
+
+    // 整个登录模块代码
+    .content {
+        width: 1000px;
+        height: 335px;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        margin: 0 auto;
+        border: 4px solid #d7dce1;
+        padding-top: 12px;
+        padding-left: 10px;
+        padding-bottom: 12px;
+        // 会员登录
+        .memberLogin {
+            float: left;
+            // position: relative;
+            width: 550px;
+            height: 294px;
+            // background-color: blue;
+            border-right: 1px solid #d7dce1;
+            // border-right: 1px solid red;
+            h2 {
+                border-bottom: 1px solid #edeff1;
+                width: 530px;
+                height: 30px;
+                // background-color: yellow;
+                background: url(../images//login/title.gif) no-repeat left -300px;
+            }
+            // 登录部分 
+            .content_form {
+                box-sizing: border-box;
+                width: 530px;
+                height: 176px;
+                padding-left: 30px;
+                padding-top: 40px;
+                position: relative;               
+                // background-color: pink;
+                h3 {
+                    float: left;
+                    width: 80px;
+                    height: 120px;
+                    margin-right: 70px;
+                    background: url(../images/login/login_left.gif) no-repeat;
+                }  
+
+
+                // 登录部位
+                .login {                  
+                    float: left;
+                    form {
+                        float: left;
+                        width: 246px;
+                        height: 136px;
+                        p {
+                            width: 246px;
+                            height: 24px;
+                            // background-color: red;
+                            margin-bottom: 16px;
+                            label {
+                                font-size: 12px;
+                                color: #646665;
+                            }
+                            input {
+                                box-sizing: border-box;
+                                width: 190px;
+                                height: 24px;
+                                // background-color: orange;
+                                border: 1px solid #9ca5b4;
+                                // outline: none;
+                                margin-left: 12px;
+                            }
+                        }
+                        .loginContent {
+                            width: 280px;
+                            height: 43px;
+                            // margin-top: 10px;
+                            // background-color: red;
+                            #loginImmediately {
+                                float: left;
+                                cursor: pointer;
+                                width: 102px;
+                                height: 43px;
+                                margin-top: 12px;
+                                margin-left: 70px;
+                                margin-right: 15px;
+                                background: url(../images/login/btn.gif) no-repeat -400px -96px;
+                            }
+                         
+                            
+                            a {
+                                float: left;
+                                // display: inline-block;
+                                span {      
+                                    display: block;                            
+                                    width: 80px;
+                                    height: 20px;
+                                    font-size: 12px;
+                                }
+                                margin-top: 18px;
+                                font-size: 12px;
+                                color: #3366cc;
+                                &:hover{
+                                    color: orange;
+                                }
+                            }
+                        }
+                    }  
+                   
+                   
+                } 
+                
+                
+                
+            }
+
+            // loginMethod登录方式模块
+            .loginMethod {
+                box-sizing: border-box;
+                padding-top: 26px;
+                width: 530px;
+                height: 87px;
+                // background: orange;
+                a {                   
+                    margin-right: 7px;
+                    img {
+                        height: 32px;
+                    }
+                }
+            }
+        }   
+        // memberRegister 会员注册部分
+        .memberRegister {
+            float: left;       
+            box-sizing: border-box;     
+            width: 431px;
+            height: 294px;
+            padding-left: 50px;
+            // background-color: red;
+            h3{
+                margin-top: 10px;
+                font-size: 14px;
+                color: #434b58;
+                margin-bottom: 18px;
+            }
+            p{
+                margin-left: 12px;
+                font-size: 12px;
+                color: #626a73;
+                margin-bottom: 26px;
+            }
+            div {
+                .icon_buy {
+                    font-size: 12px;
+                    color: #626a73;
+                    margin-left: 12px;
+                    background: url(../images/login/ico.gif) no-repeat 0 -800px;
+                    padding-left: 26px;
+                }
+                .icon_send {
+                    font-size: 12px;
+                    color: #626a73;
+                    margin-left: 12px;
+                    background: url(../images/login/ico.gif) no-repeat 0 -850px;
+                    padding-left: 26px;
+                }
+            }
+            .memberRegister_freeRegister{
+                display: block;
+                width: 102px;
+                height: 41px;
+                margin-top: 26px;
+                margin-left: 16px;
+                background: url(../images/login/btn.gif) no-repeat -197px 0;
+            }
+        }
+    }
+
+    #footer {
+        box-sizing: border-box;
+        width: 1000px;
+        height: 53px;
+        padding-top: 26px;
+        // background-color: skyblue;
+        margin: 0 auto;
+        margin-top: 10px;
+        border-top: 3px solid #e9ecef;
+        p {
+            text-align: center;
+            color: #c1afba;
+            font-size: 12px;
+            a {
+                color: #756b66;
+            }
+        }
+    }
+}

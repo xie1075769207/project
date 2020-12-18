@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 这句代码一定要书写 -->
+    <meta name="referrer" content="no-referrer">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        a,
+        img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .box {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        ul {
+            width: 260px;
+            float: left;
+            margin-right: 30px;
+        }
+
+        ul>li {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #333;
+            margin-top: 10px;
+        }
+
+        ul>li>.imgBox {
+            width: 100%;
+        }
+
+        ul>li>.contentBox {
+            height: 160px;
+            box-sizing: border-box;
+            padding: 10px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        ul>li>.contentBox>p {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        ul>li>.contentBox>p:nth-child(1) {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            word-break: break-all;
+            height: 40px;
+            overflow: hidden;
+        }
+
+        ul>li>.contentBox>p:nth-child(2)>i {
+            width: 10px;
+            height: 10px;
+            background-color: #bbb;
+        }
+
+        ul>li>.contentBox>p:nth-child(2)>span {
+            color: #bbb;
+            padding: 0 10px;
+        }
+
+        ul>li>.contentBox>p:nth-child(3)>span:nth-child(1) {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        ul>li>.contentBox>p:nth-child(3)>span:nth-child(2) {
+            padding-left: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        ul>li>.contentBox>p:nth-child(3) .msg {
+            display: inline-block;
+            width: 100px;
+            overflow: hidden;
+            height: 18px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-weight: normal;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        <ul>
+         <li>
+        <div class="imgBox">
+          <a href="javascript:;">
+            <img src="https://c-ssl.duitang.com/uploads/item/201904/26/20190426233120_zxpmm.thumb.400_0.jpg" alt="">
+          </a>
+        </div>
+        <div class="contentBox">
+          <p>黑白线稿/橡皮章素材/动漫/魔道祖师/蓝忘机黑白线稿/橡皮章素材/动漫/魔道祖师/蓝忘机</p>
+          <p>
+            <i></i>
+            <span>12</span>
+            <i></i>
+            <span>22</span>
+          </p>
+          <p>
+            <span>
+              <a href="javascript:;">
+                <img src="https://c-ssl.duitang.com/uploads/people/201803/15/20180315202505_VsjC4.thumb.24_24_c.jpeg"
+                  alt="">
+              </a>
+            </span>
+            <span>
+              <strong>name</strong>
+              <span>发布到 <strong>位置</strong></span>
+            </span>
+          </p>
+        </div>
+      </li>
+        </ul>
+        <ul></ul>
+        <ul></ul>
+        <ul></ul>
+    </div>
+
+    <script>
+        /* 
+            【1】获取页面中所需要的标签
+            【2】根据接口获取数据
+            【3】渲染数据
+                1】判断4列的ul的高,往高度最小的ul中添加数据
+            【4】滚动滚动条的时候,当滚动条到达最小ul的高度的时候
+            需要再次请求数据
+        */
+       let box = document.querySelector('.box');
+       let uls = document.querySelectorAll("ul");
+       let num = 0;
+       let flag = true;
+
+
+    //滚动的时候重新获取数据
+  
+
+    // 获取数据
+    getData();
+
+    // 渲染数据
+    function getData() {
+        
+        // 创建一个时间对象
+        let date = new Date();
+        let xhr = new XMLHttpRequest();
+        let num = 1;
+        // 这里涉及到一个服务器代理的问题,这个/dt这样是因为我们做了服务器代理,在E:\phpstudy\phpstudy_pro\Extensions\Nginx1.15.11\conf\vhosts
+        // 这个地址里面做了服务器代理,?后面的就是参数,最后一串数字就是我们的时间戳,这个是固定的数字
+        // 所以这个时间戳是固定的,我们不能写固定的,我们要写一个动态的。
+        // 这个start是开始的索引
+        xhr.open('get',`/dt?include_fields=top_comments%2Cis_root%2Csource_link%2Citem%2Cbuyable%2Croot_id%2Cstatus%2Clike_count%2Csender%2Calbum%2Creply_count&filter_id=%E6%89%8B%E5%B7%A5DIY&start=${num}&_=${date.getTime()}`,true);
+        xhr.send();
+        xhr.onload = function() {
+            // console.log(xhr.responseText);得到的是JSON数据,这个时候我们转换为js对象
+            let res = JSON.parse(xhr.responseText);
+            console.log(res);
+        }
+        
+    }
+    </script>
+</body>
+</html>

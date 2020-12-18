@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div id="head">
+        <h1>
+            <a href="./index01.html" >
+                <img src="../images/register/logo.jpg" alt="欢乐购网上购物商城">
+            </a>
+        </h1>
+    </div>
+    <div class="content">       
+        <div class="content_left">
+            <form action="" id="form">
+                <h3>填写用户注册信息</h3>
+                <p class="zhanghao">
+                    <label for="">账号:</label>
+                    <input type="text" id="username" name="username">
+                    <span>您要注册的账号</span>
+                </p>
+                <p class="password">
+                    <label for="">密码:</label>
+                    <input type="password" name="password1" id="password1">
+                    <span>您的登录密码</span>
+                </p>
+                <p class="confirmPassword">
+                    <label for="">确认密码:</label>
+                    <input type="password" name="password2" id="password2">
+                    <span>再次输入您的密码</span>
+                </p>
+                <p class="email">
+                    <label for="">邮箱:</label>
+                    <input type="email" name="email" id="email">
+                    <span>找回密码唯一途径,请务必输入正确</span>
+                </p>
+                <p class="yzm">
+                    <label for="">验证码:</label>
+                    <input type="text" name="yzm" id="yzm">
+                    <span id="picyzm"></span>
+                    <span>输入验证码</span>
+                </p>
+                <input type="submit" id="loginImmediately" value="">
+            </form>
+        </div>
+        <div class="content_right">
+            <h3>提示:</h3>
+            <p class="hasZhanghao">如果已经拥有账号</p>
+            <a href="./login.html"></a>
+            <p class="can">您还可以:</p>
+
+            <a  class="regi"  href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=100279011&redirect_uri=http://club.qqku.com/index.do&state=7552e2120d53f6a6f61e845f705e0f77&scope=get_user_info">
+                <img src="../images/register/qq_login.png" alt="" id="qq">
+            </a>
+            <a class="regi"  href="https://api.weibo.com/oauth2/authorize?client_id=3619957868&redirect_uri=http%3A%2F%2Fclub.qqku.com%2F%3Ftab%3Dwblogin%26op%3Dback%26r%3Dhttp%253A%252F%252F3218093464.qqku.com%26h%3D3218093464&response_type=code###">
+                <img src="../images/register/weibo_login.png" alt="" id="weibo">
+            </a>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Copyright&nbsp;&nbsp;&copy;&nbsp;&nbsp;2009-2018&nbsp;&nbsp;<a href="./index01.html">欢乐购网上购物商城</a>&nbsp;&nbsp;All Rights Reserved</p>
+    </div>
+    <script src="../jq/jquery/jquery.min.js"></script>
+    <script src="../jq/validation/dist/jquery.validate.min.js"></script>
+    <script src="../jq/validation/dist/localization/messages_zh.min.js"></script>
+    <script src="../js/gverify.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/pagination.js"></script>
+    <script src="../js/ajax.js"></script> 
+    <script src="../js/register.js"></script>   
+</body>
+</html>

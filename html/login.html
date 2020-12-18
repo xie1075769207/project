@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="../css/login.min.css">
+</head>
+<body>
+    <div id="head">
+        <h1>
+            <a href="index01.html">
+                <img src="../images/login/logo.jpg" alt="欢乐购网上购物商城">
+            </a>
+        </h1>
+    </div>
+    <div class="content">
+        <div class="memberLogin">
+            <h2></h2>
+            <div class="content_form ">
+                <h3></h3>
+                <div class="login">
+                    <form action="" id="formLogin">
+                        <p>
+                            <label for="#username">用户名:</label>
+                            <input type="text" id="username" name="username">
+                        </p>
+                        <p>
+                            <label for="#password">密&nbsp;&nbsp;&nbsp;码:</label>
+                            <input type="password" id="password" name="password">
+                        </p>
+                        <div class="loginContent">
+                            <input type="submit" id="loginImmediately" value="" >
+                            <a href="javascript:;">
+                                <span>忘记密码?</span>
+                                <span>购物助手找回</span>
+                            </a>
+                        </div>
+                    </form>
+                    
+                  
+                </div>
+              
+            </div>
+            <div class="loginMethod ">
+                <a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=100279011&redirect_uri=http://club.qqku.com/index.do&state=9da2dcfbcc040c104e334c57c816c0d2&scope=get_user_info">
+                    <img src="../images/login/qq_login.png" alt="">
+                </a>
+                <a href="https://api.weibo.com/oauth2/authorize?client_id=3619957868&redirect_uri=http%3A%2F%2Fclub.qqku.com%2F%3Ftab%3Dwblogin%26op%3Dback%26r%3Dhttp%253A%252F%252F3218093464.qqku.com%26h%3D3218093464&response_type=code###">
+                    <img src="../images/login/weibo_login.png" alt="">
+                </a>
+                <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx22d760ee3dabde1d&redirect_uri=http%3A%2F%2Fclub.qqku.com%3Ftab%3Dwxlogin&response_type=code&scope=snsapi_login&state=wxlogin#wechat_redirect">
+                    <img src="../images/login/wx_login.png" alt="">
+                </a>                                 
+            </div>
+            
+        </div>
+        <div class="memberRegister">
+            <h3>友情提示:如果您还不是会员,请注册</h3>
+            <p>注册之后你就可以</p>
+            <div>
+                <span class="icon_buy">购买本站产品</span>                   
+                <span class="icon_send">给其他QQ发货</span>                
+            </div>
+            <a class="memberRegister_freeRegister" href="register.html"></a>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Copyright&copy;2009-2018&nbsp;&nbsp;<a href="index01.html">欢乐购网上购物商城</a>&nbsp;&nbsp;All Rights Reserved</p>
+    </div>
+    <script src="../jq/jquery/jquery.min.js"></script>
+    <script src="../jq/validation/dist/jquery.validate.min.js"></script>
+    <script src="../jq/validation/dist/localization/messages_zh.min.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/pagination.js"></script>
+    <script src="../js/ajax.js"></script>    
+    <script src="../js/login.js"></script>
+</body>
+</html>
